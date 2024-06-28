@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js" defer></script>
+    <title>Wordle-API</title>
+</head>
+<body class="background">
+    <h1>Wordle with API</h1>
+    <input type="text" id="guess-input" maxlength="5" pattern="a-z" required>
+    <button id="guess-button">Intentar</button>
+    <div id="grid"></div>
+    <p id="guesses"></p>
+    <button id='reset-button' style="visibility:hidden">Reiniciar</button>
+    <p id="other-text"></p>
+    <p id="extra-text"></p>
+</body>
+</html>
