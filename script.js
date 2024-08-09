@@ -22,7 +22,6 @@ function resetSecreta(){
             secreta = data[0].toUpperCase();
         })
     }).catch((e)=>{
-        console.log(e)
         secreta = lista[Math.floor(Math.random() * lista.length)].toUpperCase();
     })
 }
@@ -33,7 +32,6 @@ function newChiste(){
             extra.innerHTML = data.value;
         })
     }).catch((e)=>{
-        console.log(e)
         extra.innerHTML = '';
     })
 }
